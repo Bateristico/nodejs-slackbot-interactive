@@ -1,0 +1,541 @@
+{
+	"type": "modal",
+	"callback_id": "ggs_project_modal_submit",
+	"title": {
+		"type": "plain_text",
+		"text": "Project Status",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Done",
+		"emoji": true
+	},
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Please, fill the information"
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_project_selection_block",
+			"element": {
+				"type": "static_select",
+				"action_id": "ggs_project_selection_element",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select a project to inform",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - Deutsche Bank",
+							"emoji": true
+						},
+						"value": "beqom - Deutsche Bank"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - E.ON",
+							"emoji": true
+						},
+						"value": "beqom - E.ON"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - London Stock Exchange",
+							"emoji": true
+						},
+						"value": "beqom - London Stock Exchange"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - SoftBank",
+							"emoji": true
+						},
+						"value": "beqom - SoftBank"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - Syngenta",
+							"emoji": true
+						},
+						"value": "beqom - Syngenta"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - Syngenta LTI",
+							"emoji": true
+						},
+						"value": "beqom - Syngenta LTI"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Ernst&Young - JTI",
+							"emoji": true
+						},
+						"value": "Ernst&Young - JTI"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Ernst&Young - JTI - Landing Page",
+							"emoji": true
+						},
+						"value": "Ernst&Young - JTI - Landing Page"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Ernst&Young - JTI - LTIP R1",
+							"emoji": true
+						},
+						"value": "Ernst&Young - JTI - LTIP R1"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Ernst&Young - JTI - LTIP R2",
+							"emoji": true
+						},
+						"value": "Ernst&Young - JTI - LTIP R2"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Ernst&Young - JTI - SIP",
+							"emoji": true
+						},
+						"value": "Ernst&Young - JTI - SIP"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Ernst&Young - JTI - BPM",
+							"emoji": true
+						},
+						"value": "Ernst&Young - JTI - BPM"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - Local Tapiola",
+							"emoji": true
+						},
+						"value": "beqom - Local Tapiola"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Automation",
+							"emoji": true
+						},
+						"value": "Automation"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - Support",
+							"emoji": true
+						},
+						"value": "beqom - Support"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - Presales",
+							"emoji": true
+						},
+						"value": "beqom - Presales"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "ABB - PMG",
+							"emoji": true
+						},
+						"value": "ABB - PMG"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "beqom - Seb Bank",
+							"emoji": true
+						},
+						"value": "beqom - Seb Bank"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Ernst&Young - JTI - STI",
+							"emoji": true
+						},
+						"value": "Ernst&Young - JTI - STI"
+					}
+				]
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Project:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_stage_selection_block",
+			"element": {
+				"type": "static_select",
+				"action_id": "ggs_stage_selection_element",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select the current stage of the project",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Initiation",
+							"emoji": true
+						},
+						"value": "Initiation"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Implementation",
+							"emoji": true
+						},
+						"value": "Implementation"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "UAT",
+							"emoji": true
+						},
+						"value": "UAT"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Go-Live",
+							"emoji": true
+						},
+						"value": "Go-Live"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Support Transition",
+							"emoji": true
+						},
+						"value": "Support Transition"
+					}
+				]
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Stage:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_budget_selection_block",
+			"element": {
+				"type": "static_select",
+				"action_id": "ggs_budget_selection_element",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select the budget",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Time & Material",
+							"emoji": true
+						},
+						"value": "Time & Material"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Fix Price",
+							"emoji": true
+						},
+						"value": "Fix Price"
+					}
+				]
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Budget:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_timeline_selection_block",
+			"element": {
+				"type": "static_select",
+				"action_id": "ggs_timeline_selection_element",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select the timeline",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "On Track",
+							"emoji": true
+						},
+						"value": "On Track"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "At-Risk",
+							"emoji": true
+						},
+						"value": "At-Risk"
+					}
+				]
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Timeline:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_scope_selection_block",
+			"element": {
+				"type": "static_select",
+				"action_id": "ggs_scope_selection_element",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select the percentage of completion",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "0%",
+							"emoji": true
+						},
+						"value": "0%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "10%",
+							"emoji": true
+						},
+						"value": "10%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "20%",
+							"emoji": true
+						},
+						"value": "20%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "30%",
+							"emoji": true
+						},
+						"value": "30%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "40%",
+							"emoji": true
+						},
+						"value": "40%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "50%",
+							"emoji": true
+						},
+						"value": "50%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "60%",
+							"emoji": true
+						},
+						"value": "60%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "70%",
+							"emoji": true
+						},
+						"value": "70%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "80%",
+							"emoji": true
+						},
+						"value": "80%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "90%",
+							"emoji": true
+						},
+						"value": "90%"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "100%",
+							"emoji": true
+						},
+						"value": "100%"
+					}
+				]
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Percentage of completion:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_risks_selection_block",
+			"element": {
+				"type": "static_select",
+				"action_id": "ggs_risks_selection_element",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select the budget",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "No risk",
+							"emoji": true
+						},
+						"value": "No risk"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Some, mitigation in progress",
+							"emoji": true
+						},
+						"value": "Some, mitigation in progress"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Some, not mitigated",
+							"emoji": true
+						},
+						"value": "Some, not mitigated"
+					}
+				]
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Risks:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_important_business_block",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "ggs_important_business_element"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Any other important business?",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+			"block_id": "ggs_status_selection_block",
+			"element": {
+				"type": "static_select",
+				"action_id": "ggs_status_selection_element",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select the budget",
+					"emoji": true
+				},
+				"options": [
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "On track",
+							"emoji": true
+						},
+						"value": "Green"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Issues under control, mitigation plan in place",
+							"emoji": true
+						},
+						"value": "Yellow"
+					},
+					{
+						"text": {
+							"type": "plain_text",
+							"text": "Immediate action required, shred or partnered control, or not control",
+							"emoji": true
+						},
+						"value": "Red"
+					}
+				]
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Overall status:",
+				"emoji": true
+			}
+		}
+	]
+}

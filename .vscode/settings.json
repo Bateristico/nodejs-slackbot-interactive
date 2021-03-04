@@ -1,0 +1,9 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/58d4f33e-84d0-4693-9bf5-50183ee19c15/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/klaudiabot-interactive",
+    "appService.deploySubpath": ".",
+    "git.ignoreLimitWarning": true
+}

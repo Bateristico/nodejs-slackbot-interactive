@@ -1,0 +1,21 @@
+{
+    "blocks": [
+      {
+        "type": "section",
+        "text": {
+          "type": "mrkdwn",
+          "text": "Hello, thanks for calling me. Would you like to launch a modal?"
+        },
+        "accessory": {
+          "type": "button",
+          "action_id": "open_modal_button", 
+          "text": {
+            "type": "plain_text",
+            "text": "Launch",
+            "emoji": true
+          },
+          "value": "launch_button_click"
+        }
+      }
+    ]
+  }

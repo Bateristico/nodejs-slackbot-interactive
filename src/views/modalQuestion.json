@@ -1,0 +1,20 @@
+{
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn"
+			},
+			"accessory": {
+				"type": "button",
+				"action_id": "open_modal_button",
+				"text": {
+					"type": "plain_text",
+					"text": "Launch Form",
+					"emoji": true
+				},
+				"value": "launch_button_click"
+			}
+		}
+	]
+}

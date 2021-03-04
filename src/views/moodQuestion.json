@@ -1,0 +1,39 @@
+{
+	"text": "How do you feel today?",
+	"fallback": "You are unable to answer the question",
+	"color": "#3AA3E3",
+	"attachment_type": "default",
+	"callback_id": "mood_answer",
+	"actions": [
+		{
+			"name": "excellent",
+			"text": "*excellent* :fist:",
+			"value": "excellent",
+			"type": "button"
+		},
+		{
+			"name": "good",
+			"text": "*good* :slightly_smiling_face:",
+			"value": "good",
+			"type": "button"
+		},
+		{
+			"name": "normal",
+			"text": "*alright* 👍",
+			"value": "normal",
+			"type": "button"
+		},
+		{
+			"name": "not good",
+			"text": "*not so good* :slightly_frowning_face:",
+			"value": "not good",
+			"type": "button"
+		},
+		{
+			"name": "bad",
+			"text": "*bad* :weary:",
+			"value": "bad",
+			"type": "button"
+		}
+	]
+}

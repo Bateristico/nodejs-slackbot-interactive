@@ -1,0 +1,21 @@
+{
+	"text": "Will you be attending to the office tomorrow? ",
+	"fallback": "You are unable to answer the question",
+	"color": "#3AA3E3",
+	"attachment_type": "default",
+	"callback_id": "homeoffice_answer",
+	"actions": [
+		{
+			"name": "answer yes",
+			"text": "Yes, I'll be in the office 🏢",
+			"type": "button",
+			"value": "office"
+		},
+		{
+			"name": "answer no",
+			"text": "No, I'll be working from home 🏡",
+			"type": "button",
+			"value": "home"
+		}
+	]
+}
