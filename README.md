@@ -1,1 +1,1 @@
-# ggs-nodejs-klaudiabot-interactive
+# nodejs-slackbot-interactive
